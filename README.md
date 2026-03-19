@@ -9,9 +9,9 @@ on both simulated (CARLA-Round) and real-world (rounD) roundabout data.
 ## Architecture
 
 - **Temporal branch**: Transformer encoder with sinusoidal positional encoding
-- **Spatial branch**: Two-layer star-graph GCN (Kipf & Welling, 2017)
+- **Spatial branch**: Two-layer star-graph GCN 
 - **Fusion**: Late gated fusion with learnable gate
-- **Decoder**: Non-autoregressive MLP (predicts all future steps at once)
+- **Decoder**: Non-autoregressive MLP 
 
 ## Requirements
 ```bash
@@ -29,8 +29,3 @@ python train_round_indomain.py
 # Sim-to-real transfer evaluation
 python transfer_test.py
 ```
-
-## Dataset
-
-The CARLA-Round simulation dataset is available at  
-https://github.com/Rebecca689/CARLA-Round
