@@ -2,10 +2,6 @@
 
 Official implementation of **"GETFormer: Graph-Enhanced Transformer for Roundabout Trajectory Prediction"**.
 
-<p align="center">
-  <img src="figures/framework_overall.png" width="800"/>
-</p>
-
 ## Overview
 
 GETFormer integrates a **star-graph convolutional network (GCN)** for spatial interaction modeling with a **Transformer encoder** for temporal dependencies through a learned **gated fusion** mechanism and **non-autoregressive decoding**.
